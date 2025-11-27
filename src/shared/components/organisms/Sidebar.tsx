@@ -17,7 +17,7 @@ const Sidebar = () => {
     <aside className="bg-sidebar fixed top-0 left-0 z-40 h-screen w-[265px] flex flex-col">
       <div className="bg-primary flex w-full p-6 text-[16px] font-bold">
         {/* TODO: Replace with your new logo */}
-        아키스토리
+        핸디레터
       </div>
       {/* Scrollable menu area */}
       <div className="sidebar-content h-full flex-1 ">
