@@ -1,0 +1,57 @@
+/* src/styles/day-picker-custom.css */
+
+/* Example: Style the day button */
+.rdp-day_button {
+  width: 2.25rem; /* Equivalent to w-9 */
+  height: 2.25rem; /* Equivalent to h-9 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px; /* rounded-full */
+  font-family: "Pretendard", sans-serif; /* Your font */
+  font-size: 14px;
+  transition: background-color 150ms ease-in-out;
+}
+
+.rdp-day_button:hover:not([disabled]) {
+  background-color: #f2f4f5; /* Your system-100 color */
+}
+
+/* Example: Style the selected day */
+.rdp-day_button[aria-selected="true"] {
+  background-color: #279eff !important; /* Your primary color */
+  color: white !important;
+}
+.rdp-day_button[aria-selected="true"]:hover {
+  background-color: #1a8cff !important; /* Darker primary maybe */
+}
+
+/* Example: Style today's date */
+.rdp-day_button[data-today="true"] {
+  border: 1px solid #279eff; /* Your primary color */
+  color: #279eff;
+  font-weight: 600;
+}
+
+/* Example: Style weekday header */
+.rdp-weekday {
+  width: 2.25rem; /* w-9 */
+  text-align: center;
+  font-weight: 500;
+  color: #808991; /* system-500 */
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem; /* mb-2 */
+}
+
+/* Add more styles for caption, nav buttons, outside days etc. */
+.rdp-caption_label {
+  font-family: "Pretendard", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #262c31; /* system-700 */
+}
+
+.rdp-nav_button {
+  /* Style nav buttons */
+}
