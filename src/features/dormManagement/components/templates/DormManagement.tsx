@@ -30,7 +30,7 @@ const DormManagement = () => {
       <div className="mb-[20px] min-w-[1044px]">
         <div className="mb-[10px]">
           <span className="text-system-700 text-[32px] leading-[138%] font-bold tracking-[-0.01px]">
-            숙소 관리
+            상품 관리
           </span>
         </div>
         <div className="flex items-center justify-between">
@@ -63,10 +63,7 @@ const DormManagement = () => {
         </div>
       </div>
       <div className="border-system-200 bg-white">
-        <DormTable
-          dormList={dormList || []}
-          onNavigate={goToDetail}
-        />
+        <DormTable dormList={dormList || []} onNavigate={goToDetail} />
       </div>
       <div className="mt-[40px] mb-[113px] flex justify-center">
         <Pagination
@@ -92,4 +89,3 @@ const DormManagement = () => {
 };
 
 export default DormManagement;
-

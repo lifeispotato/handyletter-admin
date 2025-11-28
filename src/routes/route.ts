@@ -37,7 +37,7 @@ export const route = {
   storyUpdate: prefix + "story/update",
   storyCreate: prefix + "story/create",
 
-  // 숙소 관리
+  // 상품 관리
   dormList: prefix + "dorm/list",
   dormDetail: prefix + "dorm/detail",
   dormUpdate: prefix + "dorm/update",

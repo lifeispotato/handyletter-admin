@@ -42,7 +42,7 @@ export const sidebarMenu: MenuItem[] = [
     isView: true,
   },
   {
-    title: "숙소 관리",
+    title: "상품 관리",
     link: route.dormList,
     icon: "",
     isView: true,
